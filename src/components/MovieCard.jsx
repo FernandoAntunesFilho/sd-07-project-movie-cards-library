@@ -8,12 +8,12 @@ class MovieCard extends Component {
     return (
       <div>
         <div>
-          <h4 className="page-title">{title}</h4>
-          <h5>{subtitle}</h5>
-          <p>{storyline}</p>
-          <img src={imagePath} alt="" />
+          <h4 className="movie-card-title">{title}</h4>
+          <h5 className="movie-card-subtitle">{subtitle}</h5>
+          <p className="movie-card-storyline">{storyline}</p>
+          <img className="movie-card-image" src={imagePath} alt="" />
         </div>
-        <Rating rating={rating} />
+        <Rating className="movie-card-rating" rating={rating} />
       </div>
     );
   }
