@@ -5,8 +5,6 @@ class Rating extends Component {
     const { rating } = this.props;
     return (
       <div className="rating">
-        Rating
-        {' '}
         {rating}
       </div>
     );
