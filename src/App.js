@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './components/Header';
-import MoveList from './components/MovieList';
 import MovieList from './components/MovieList';
 import data from './data';
 import './App.css';
