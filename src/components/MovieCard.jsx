@@ -19,7 +19,7 @@ class MovieCard extends Component {
           <h5 className="movie-card-subtitle">{subtitle}</h5>
           <p className="movie-card-storyline">{storyline}</p>
         </div>
-        <Rating rating={rating} className="movie-card-rating"/>
+        <Rating rating={rating} className="movie-card-rating" />
       </div>
     );
   }
