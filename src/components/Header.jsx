@@ -1,4 +1,4 @@
-import React from 'react1;
+import React from 'react';
 
 class Header extends React.Component {
   render() {
