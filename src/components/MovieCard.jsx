@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 class MovieCard extends Component {
   render() {
-    const { title, subtitle, imagePath } = this.props.movie;
+    const { title, subtitle, storyline, imagePath } = this.props.movie;
 
     return (
       <div className="movie-card" >
@@ -11,6 +11,7 @@ class MovieCard extends Component {
         <img src={imagePath} alt="Movie cover" />
         <h4 className="movie-title">{title}</h4>
         <h5 className="movie-subtitle">{subtitle}</h5>
+        <p className="movie-story-line">{storyline}</p>
 
       </div>
     );
