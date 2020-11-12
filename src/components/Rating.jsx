@@ -1,15 +1,19 @@
-import React from 'react'
+import React from 'react';
 
 class Rating extends React.Component {
-    render() {
-      return (
-        <div>
+  render() {
+    return (
+      <div>
         {this.props.rating}
-        </div>
-      );
-    }
+      </div>
+    );
   }
-  export default Rating;
-  
- 
+}
+export default Rating;
+
+MovieCard.propTypes = {
+    movie: PropTypes.shape({
+      rating: PropTypes.number,
+    }).isRequired,
+  };
   
