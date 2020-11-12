@@ -125,7 +125,7 @@ describe('<Rating /> component', () => {
 });
 
 describe('<App /> component', () => {
-  it.skip('renders a `Header` component', () => {
+  it('renders a `Header` component', () => {
     wrapper = shallow(<App />);
 
     expect(wrapper.find('Header').length).toEqual(1);
