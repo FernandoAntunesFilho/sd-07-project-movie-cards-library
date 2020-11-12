@@ -3,7 +3,8 @@ import React from 'react';
 
 class MovieCard extends React.Component {
   render() {
-    return (
+    const { movie } = this.props;  
+      return (
         <div>
         </div>
     );  
