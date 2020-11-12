@@ -11,9 +11,4 @@ class Rating extends React.Component {
 }
 export default Rating;
 
-MovieCard.propTypes = {
-    movie: PropTypes.shape({
-      rating: PropTypes.number,
-    }).isRequired,
-  };
-  
+Rating.propTypes = { rating: PropTypes.number.isRequired };
