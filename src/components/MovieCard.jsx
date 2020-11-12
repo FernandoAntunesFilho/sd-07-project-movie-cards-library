@@ -5,7 +5,7 @@ class MovieCard extends Component {
   render() {
     return (
       <div className="movie-card" >
-      
+
       </div>
     );
   }
