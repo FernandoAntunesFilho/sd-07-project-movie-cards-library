@@ -117,7 +117,7 @@ describe('<Rating /> component', () => {
     shallow(<Rating />);
   });
 
-  it.skip('renders the rating inside an element with the class `rating`', () => {
+  it('renders the rating inside an element with the class `rating`', () => {
     wrapper = shallow(<Rating rating={3} />);
 
     expect(wrapper.find('.rating').text()).toEqual('3');
@@ -131,7 +131,7 @@ describe('<App /> component', () => {
     expect(wrapper.find('Header').length).toEqual(1);
   });
 
-  it.skip('renders a `MovieList` component', () => {
+  it('renders a `MovieList` component', () => {
     expect(wrapper.find('MovieList').length).toEqual(1);
   });
 });
