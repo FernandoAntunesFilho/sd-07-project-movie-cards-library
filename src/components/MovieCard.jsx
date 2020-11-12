@@ -3,9 +3,10 @@ import React from 'react';
 
 class MovieCard extends React.Component {
   render() {
-      return(
-        <img src = {imagePath} />
-   );  
+      return (
+          <div>
+          </div>
+      );  
   }
 }
 
