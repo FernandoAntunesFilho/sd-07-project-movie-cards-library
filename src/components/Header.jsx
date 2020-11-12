@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react1;
 
 class Header extends React.Component {
   render() {
@@ -10,4 +10,4 @@ class Header extends React.Component {
   }
 }
 
-export default userProfile;
+export default Header;
