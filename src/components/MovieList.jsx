@@ -18,7 +18,7 @@ MovieList.propTypes = {
   movies: PropTypes
   .arrayOf(PropTypes
     .objectOf([PropTypes.string, PropTypes.number]))
-    .isRequired
-  };
+    .isRequired,
+};
 
 export default MovieList;
