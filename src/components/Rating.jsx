@@ -3,11 +3,11 @@ import movies from '../data';
 
 class Rating extends React.Component {
   render() {
-      return (
+    return (
       <div>
         <p>{movies.rating}</p>
-      </div>)
-    };
-};
+      </div>);
+  }
+}
 export default Rating;
 
