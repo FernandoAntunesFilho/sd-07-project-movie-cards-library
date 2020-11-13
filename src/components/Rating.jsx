@@ -1,13 +1,12 @@
 import React from 'react';
 import movies from '../data';
 
-class Rating extends React.Component{
-    render(){
-        <div>
-             <p>{movies.rating}</p>
-        </div>
-
+class Rating extends React.Component {
+  render() {
+      <div>
+        <p>{movies.rating}</p>
+      </div>
     };
-}
-
+};
 export default Rating;
+

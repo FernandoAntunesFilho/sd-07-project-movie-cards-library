@@ -1,19 +1,17 @@
-import Rating from './components/Rating'
-import MovieList from './components/MovieList'
-import movies from './data';
-import Header from './components/Header'
 import React from 'react';
+import Rating from './components/Rating';
+import MovieList from './components/MovieList';
+import movies from './data';
+import Header from './components/Header';
 import './App.css';
-
-
 
 
 function App() {  
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <MovieList movies={movies} />
-      <Rating/>
+      <Rating />
     </div>
   );
 }
