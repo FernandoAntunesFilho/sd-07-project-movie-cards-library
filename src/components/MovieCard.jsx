@@ -19,6 +19,7 @@ class MovieCard extends React.Component {
     );
   }
 }
+//codigo de Alexandre
 MovieCard.propTypes = {
   movie: PropTypes.shape(
     {
