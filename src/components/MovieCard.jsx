@@ -3,17 +3,17 @@ import Rating from './Rating';
 
 
 const MovieCard = (props) => {
-  const { imagePath, title, subtitle, storyline, rating } = props;
+  const { movies } = props;
   return (
     <div>
       <div>
-          <img src={imagePath} alt={title} />
-          <h4>{title}</h4>  
-          <h5>{subtitle}</h5>
-          <p>{storyline}</p>
+          <img src={movies.imagePath} alt={movies.title} />
+          <h4>{movies.title}</h4>  
+          <h5>{movies.subtitle}</h5>
+          <p>{movies.storyline}</p>
       </div>
       <div>
-          <Rating rating={rating} />
+          <Rating rating={movies.rating} />
           </div>
     </div>
   );
