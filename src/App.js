@@ -1,5 +1,4 @@
 import React from 'react';
-import Rating from './components/Rating';
 import MovieList from './components/MovieList';
 import movies from './data';
 import Header from './components/Header';
@@ -11,7 +10,6 @@ function App() {
     <div className="App">
       <Header />
       <MovieList movies={movies} />
-      <Rating />
     </div>
   );
 }

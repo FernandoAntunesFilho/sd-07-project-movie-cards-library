@@ -1,6 +1,6 @@
 
 import React from 'react';
-import MovieCard from './components/MovieCard'
+import MovieCard from './MovieCard'
 
 const MovieList = (props) => {
     const {movies} = props;
