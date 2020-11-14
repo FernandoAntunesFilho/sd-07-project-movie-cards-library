@@ -19,12 +19,4 @@ export default MovieList;
 
 MovieList.defaultProps = { movies: [] };
 
-MovieList.propTypes = {
-  movies: propTypes.arrayOf(propTypes.shape({
-    imagePath: propTypes.string,
-    title: propTypes.string,
-    subtitle: propTypes.string,
-    storyline: propTypes.string,
-    rating: propTypes.number,
-  })),
-};
+MovieList.propTypes = { movies: propTypes.arrayOf(propTypes.shape({})) };
