@@ -11,14 +11,6 @@ class Rating extends React.Component {
   }
 }
 
-Rating.propTypes = {
-  movie: PropTypes.objectOf({
-    title: PropTypes.string.isRequired,
-    subtitle: PropTypes.string.isRequired,
-    storyline: PropTypes.string.isRequired,
-    imagePath: PropTypes.string.isRequired,
-    rating: PropTypes.number.isRequired,
-  }).isRequired,
-};
+Rating.propTypes = { rating: PropTypes.number.isRequired };
   
 export default Rating;
