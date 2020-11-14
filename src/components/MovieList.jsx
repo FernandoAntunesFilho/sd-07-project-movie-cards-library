@@ -1,10 +1,7 @@
-// implement MovieList component here
 import React from 'react';
 
 class MovieList extends React.Component {
-    render() {
-        return (this.props.movies);
-    }
+  render() { return (<div>Lista de Filmes</div>); }
 }
 
 export default MovieList;
