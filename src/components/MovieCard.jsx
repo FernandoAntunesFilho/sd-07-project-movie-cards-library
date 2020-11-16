@@ -1,24 +1,26 @@
 import React from 'react';
-import movies from '../data';
 import PropTypes from 'prop-types';
+import '../App.css';
 import Rating from './Rating';
 
-
 class MovieCard extends React.Component {
-render() {
-   const {title,subtitle,storyline,rating,imagePath} = this.props.movie;
-    return(<div className="MovieCard">
-         <img className="movie-card-image" src={imagePath} alt="bla" />
-         <div className="movie-card-body">
-         <h4>{title}</h4>
-         <h5>{subtitle}</h5>
-         <p>{storyline}</p>
-      <div>
-          < Rating rating={rating}/>
+  render() {
+    const { movie } = this.props;
+    const { title, subtitle, storyline, imagePath, rating } = movie;
+    return (
+      <div className="movie-card">
+        <img className="movie-card-image" src={imagePath} alt="bla" />
+        <div className="movie-card-body">
+          <h4 className="movie-card-title">{title}</h4>
+          <h5 className="movie-card-subtitle">{subtitle}</h5>
+          <p className="movie-card-storyline">{storyline}</p>
+        </div>
+        <div className="movie-card-rating">
+          <Rating className="rating" rating={rating} />
+        </div>
       </div>
-      </div>
-     </div>)
-}
+    );
+  }
 }
 MovieCard.defaultProps = { movie: {} };
 MovieCard.propTypes = {
@@ -30,6 +32,5 @@ MovieCard.propTypes = {
     rating: PropTypes.number,
   }).isRequired,
 };
-
 
 export default MovieCard;
