@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import MovieList from './components/MovieList';
 
-function App () {
+function App() {
   return (
     <div className="App">
       <div className="page-title">
