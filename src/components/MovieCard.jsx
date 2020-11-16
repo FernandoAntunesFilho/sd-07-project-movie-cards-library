@@ -1,10 +1,10 @@
 import React from 'react';
-import Rating from './Rating';
 import PropTypes from 'prop-types';
+import Rating from './Rating';
 
 
 class MovieCard extends React.Component {
-  render() { 
+  render() {
     const { movie } = this.props;
     return (
       <div>
@@ -20,11 +20,7 @@ class MovieCard extends React.Component {
 
 MovieCard.propTypes = {
   movie: PropTypes.objectOf(PropTypes.string).isRequired,
-  movie : {
-    rating: PropTypes.number.isRequired
-  }
-}
+  rating: PropTypes.number.isRequired,
+};
 
 export default MovieCard;
-
-
