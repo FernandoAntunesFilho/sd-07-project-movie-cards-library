@@ -1,14 +1,14 @@
-.movieCard img {
-    width: 100%;
-    height: 200px;
-    background-color: crimson;
+.movieCard {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 15px;
+  padding: 5px;
+  border: 1px solid black;
 }
 
-.movieCard {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin: 15px;
-    padding: 5px;
-    border: 1px solid black;
+.movieCard img {
+  width: 100%;
+  height: 200px;
+  background-color: crimson;
 }
