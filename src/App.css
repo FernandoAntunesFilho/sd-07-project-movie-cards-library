@@ -4,7 +4,7 @@ body {
   font-size: 16px;
 }
 
-.movie-card-header {
+.header {
   align-items: center;
   background-color: #343a40;
   display: flex;
@@ -12,7 +12,7 @@ body {
   justify-content: center;
 }
 
-.page-title {
+.title {
   color: #f8f9fa;
   font-size: 28px;
   font-weight: 500;
@@ -38,29 +38,29 @@ body {
 }
 
 
-.movie-card-image {
+.image {
   width: 100%;
 }
 
-.movie-card-body {
+.body {
   flex: 1 1 auto;
   padding: 20px;
 }
 
-.movie-card-title {
+.title {
   font-size: 24px;
   font-weight: 500;
   margin: 0 0 12px;
 }
 
-.movie-card-subtitle {
+.subtitle {
   color: #6c757d;
   font-size: 16px;
   font-weight: 500;
   margin: 0 0 8px;
 }
 
-.movie-card-storyline {
+.storyline {
   font-size: 14px;
   text-align: justify;
 }
