@@ -6,4 +6,6 @@ class Rating extends React.Component {
     return (<span className="rating">{this.props.rating}</span>);
   }
 }
+
+Rating.propTypes = { rating: PropTypes.number}
 export default Rating;
