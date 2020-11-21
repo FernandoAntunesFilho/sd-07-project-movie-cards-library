@@ -1,6 +1,6 @@
 import React from 'react';
 
-class MovieCardComponent extends React.Component {
+class MovieCard extends React.Component {
   render() {
     return (
       <div>
@@ -10,4 +10,4 @@ class MovieCardComponent extends React.Component {
   }
 }
 
-export default MovieCardComponent;
+export default MovieCard;
