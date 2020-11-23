@@ -1,1 +1,1 @@
-// implement MovieCard component here
+// iniciando o projeto :rocket:
