@@ -2,7 +2,7 @@ import React from 'react';
 
 class MovieCard extends React.Component {
   render() {
-  return <span>{this.props.title}</span>
+  return <span> carne</span>
   }
 }
 
