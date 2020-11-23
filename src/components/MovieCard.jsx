@@ -2,9 +2,7 @@ import React from 'react';
 
 class MovieCard extends React.Component {
   render() {
-      <span>
-          Movie Cards Library
-      </span>
+  return <span>{this.props.title}</span>
   }
 }
 
