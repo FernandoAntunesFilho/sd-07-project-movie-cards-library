@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 class MovieList extends Component {
   render() {
-    const data = this.props.data;
+    const informationMovies = this.props.data;
     return (
       <div>
-        <span>Nome: {data[0].title}</span>
+        <span>Nome: {informationMovies[0].title}</span>
       </div>
     );
   }
@@ -14,6 +14,4 @@ class MovieList extends Component {
 
 export default MovieList;
 
-MovieList.propTypes = {
-  title: PropTypes.string
-};
+MovieList.propTypes = { data: PropTypes.array };
