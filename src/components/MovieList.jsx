@@ -7,8 +7,12 @@ class MovieList extends Component {
       <div>
         <span>Nome: {data[0].title}</span>
       </div>
-    )
+    );
   }
 }
+
+MovieList.propTypes = {
+  data = PropTypes.object
+};
 
 export default MovieList;
