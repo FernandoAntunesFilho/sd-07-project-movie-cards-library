@@ -3,11 +3,11 @@ body {
   box-sizing: border-box;
   font-size: 16px;
 }
-.main-header{
-background-color: black;
-color: yellowgreen;
-padding: 10px;
-text-align: center;
+.main-header {
+  background-color: black;
+  color: yellowgreen;
+  padding: 10px;
+  text-align: center;
 }
 
 .movie-card-header {
