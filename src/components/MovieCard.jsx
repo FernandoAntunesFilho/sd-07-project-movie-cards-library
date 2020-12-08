@@ -21,4 +21,5 @@ class MovieCard extends Component {
 
 MovieCard.propTypes = { movie: PropTypes.objectOf.isRequired };
 
-export default MovieCard;
+export default MovieCard; 
+// teste
