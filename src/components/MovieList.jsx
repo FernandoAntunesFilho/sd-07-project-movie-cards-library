@@ -11,7 +11,7 @@ class MovieList extends React.Component {
           <MovieCard movie={movie} key={movie.title} />
         ))}
       </div>
-     );
+    );
   }
 }
 
