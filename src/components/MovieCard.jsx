@@ -4,8 +4,7 @@ import Rating from './Rating';
 
 class MovieCard extends Component {
   render() {
-    const { title, subtitle, storyline, rating, imagePath } = this.props.movieInfo;
-    console.log(title);
+    const { title, subtitle, storyline, rating, imagePath } = this.props.movie;
     return (
       <div>
         <img alt={title} src={imagePath} />
@@ -19,7 +18,7 @@ class MovieCard extends Component {
 }
 
 MovieCard.propTypes = {
-  movieInfo: PropTypes.objectOf(PropTypes.shape({
+  movie: PropTypes.objectOf(PropTypes.shape({
     storyline: PropTypes.string,
     title: PropTypes.string,
     subtitle: PropTypes.string,
